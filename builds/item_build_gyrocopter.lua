@@ -11,15 +11,16 @@ X["items"] = {
 	"item_ring_of_aquila",
 	"item_dragon_lance",
 	"item_manta",
+	"item_ultimate_scepter",
 	"item_black_king_bar",
 	"item_hurricane_pike",
 	"item_butterfly",
-	"item_monkey_king_bar"
+	"item_satanic"
 };			
 
 X["skills"] = IBUtil.GetBuildPattern(
 	  "normal", 
-	  {1,2,1,2,1,4,1,2,2,3,4,3,3,3,4}, skills, 
+	  {1,3,1,3,1,4,1,3,3,2,4,2,2,2,4}, skills, 
 	  {1,4,6,8}, talents
 );
 

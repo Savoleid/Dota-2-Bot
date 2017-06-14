@@ -10,15 +10,16 @@ X["items"] = {
 	"item_phase_boots",
 	"item_veil_of_discord",
 	"item_cyclone",
-	"item_rod_of_atos",
+	"item_bloodstone",
 	"item_octarine_core",
-	"item_shivas_guard"
+	"item_shivas_guard",
+	"item_refresher"
 };			
 
 X["skills"] = IBUtil.GetBuildPattern(
 	  "normal", 
 	  {1,3,1,2,1,4,1,3,3,3,4,2,2,2,4}, skills, 
-	  {1,3,5,8}, talents
+	  {1,4,5,8}, talents
 );
 
 return X

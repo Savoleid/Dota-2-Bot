@@ -6,21 +6,23 @@ local talents = IBUtil.FillTalenTable(npcBot);
 local skills  = IBUtil.FillSkillTable(npcBot, IBUtil.GetSlotPattern(1));
 
 X["items"] = { 
+	"item_quelling_blade",
 	"item_poor_mans_shield",
 	"item_magic_wand",
 	"item_power_treads_str",
-	"item_maelstrom",
+	"item_echo_sabre",
 	"item_blink",
-	"item_mjollnir",
-	"item_abyssal_blade",
+	"item_skull_basher",
+	"item_mjollnir",,
 	"item_assault",
-	"item_monkey_king_bar"
+	"item_abyssal_blade"
+	"item_heart"
 };			
 
 X["skills"] = IBUtil.GetBuildPattern(
 	  "normal", 
 	  {1,3,1,2,1,4,1,3,3,3,4,2,2,2,4}, skills, 
-	  {1,4,5,7}, talents
+	  {1,4,5,8}, talents
 );
 
 return X

@@ -1,7 +1,7 @@
 local X = {}
 
 --Change to false to disable random talent choice
-local rand = true;
+local rand = false;
 
 function X.FillTalenTable(npcBot)
 	local talents = {};
